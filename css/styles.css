@@ -1,0 +1,89 @@
+body {
+    font-family: "Open Sans", sans-serif; 
+    color: #373A3C;
+}
+
+h3 {
+    font-size: 72px;
+}
+
+h4 {
+    font-size: 54px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+button {
+    width: 39px;
+    height: 38px;
+}
+
+label {
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.input-custom {
+    width: 86px;
+    height: 38px;
+}
+
+.error-larger-than {
+    background-color: #F2DEDE;
+    color: #A94442;
+    border: 1px solid #EBCCCC;
+    font-size: 16px;
+    display: none;
+    position: relative;
+    left: 100px;
+}
+
+.error-box {
+    border: 1px solid #D9534F;
+}
+
+.error-server {
+    color: #D9534F;
+    font-size: 16px;
+    display: none;
+}
+
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  
+.spin {
+    animation: spin 3s infinite linear;
+    display: none;
+}
+  
+.result {
+    display: none; 
+    text-decoration: underline;
+}
+  
+.show {
+    display: inline-block;
+}
+
+.dropdown > button {
+    width: auto;
+}
+
+#dropdown-menu {
+    width: 122px;
+    background-color: #E6E6E6;;
+}
